@@ -27,3 +27,12 @@ The goals of this project are:
 * Use SharedPreferences to store data.
 * Manage dangerous permissions.
 * Learn about Firebase.
+
+### Links
+* [Maps Android API]
+
+### Sample
+![Alt Text](https://eimtgit.uoc.edu/docente_android/android1-pec3-maps/raw/master/resources/example_map_app.gif)
+
+
+[Maps Android API]: <https://developers.google.com/maps/documentation/android-api>
