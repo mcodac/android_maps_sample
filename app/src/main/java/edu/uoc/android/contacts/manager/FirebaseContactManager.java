@@ -62,6 +62,6 @@ public class FirebaseContactManager {
      * Adding a contact to HashMap
      */
     public void addContactHashMap(Contact contact) {
-        this.contactHashMap.put(contact.getObjectId(), contact);
+        this.contactHashMap.put(contact.getId(), contact);
     }
 }

@@ -5,16 +5,14 @@ public class Contact {
     private String updatedAt;
     private String birthday;
     private String phone;
-    private GeoLocation location;
+    private Address address;
     private String imageUrl;
     private String email;
-    private String objectId;
+    private String id;
     private String description;
     private String createdAt;
     private String name;
     private String gender;
-    private String country;
-    private String city;
 
     public String getUpdatedAt() {
         return updatedAt;
@@ -28,8 +26,8 @@ public class Contact {
         return phone;
     }
 
-    public GeoLocation getLocation() {
-        return location;
+    public Address getAddress() {
+        return address;
     }
 
     public String getImageUrl() {
@@ -40,8 +38,8 @@ public class Contact {
         return email;
     }
 
-    public String getObjectId() {
-        return objectId;
+    public String getId() {
+        return id;
     }
 
     public String getDescription() {
@@ -58,13 +56,5 @@ public class Contact {
 
     public String getGender() {
         return gender;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public String getCity() {
-        return city;
     }
 }

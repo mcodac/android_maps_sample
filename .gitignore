@@ -33,3 +33,5 @@ proguard/
 .idea
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
+.idea/instapk.xml
+instapk.log*
