@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Contacts</string>
+    <string name="stored_map_zoom">map_zoom</string>
+    <string name="permissions_error">Permission not granted: cannot locate own position</string>
 </resources>
